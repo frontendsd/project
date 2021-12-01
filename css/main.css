@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: 2px dotted #2959CE;
+    outline-offset: 2px;
+}
+
+html{
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #30444E;
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1160px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.site-header{
+    border-bottom: 1px solid gray;
+    
+}
+
+.site-header-nav{
+    display: flex;
+}
+
+.site-header-logo{
+
+}
+.site-header-img{
+    margin-right: 50px;
+}
+.site-header-img:hover{
+    opacity: 0.8;
+}
+.site-header-img:active{
+    opacity: 0.6;
+}
+
+.header-navigation{
+    
+}
+
+.header-list{
+    display: flex;
+}
+
+.header-item{
+    margin-left: 30px;
+    list-style-type: none;
+}
+.header-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.header-link{
+    text-decoration: none;
+    color: rgba(31, 46, 53, 0.8);
+}
+.header-link:hover{
+    color: #EE4248;
+}
+.header-link:active{
+    opacity: 0.6;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.site-icon{
+    margin-left: 24px;
+}
+
+.site-icon:hover{
+    opacity: 0.8;
+}
+.site-icon:active{
+    opacity: 0.6;
+}
+
+
+
+.section-header{
+    display: flex;
+}
+
+.section-title{
+    margin-top: 125px;
+    width: 545px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #1F2E35;
+}
+.section-title>span{
+    font-weight: 600;
+    color: #EE4248;
+}
+.section-info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    width: 550px;
+    margin-top: 24px;
+}
+
+.section-button{
+    width: 161px;
+    color: #ffffff;
+    padding: 12px 32px;
+    background-color: #EE4248;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+
+.section-button:hover{
+    opacity: 0.8;
+}
+.section-button:active{
+    opacity: 0.6;
+}
+
+.section-img{
+    margin-top: 110px;
+}
+
+.section-two-heading{
+    display: flex;
+    margin-top: 165px;
+}
+.section__img{
+    
+}
+.section-information{
+    margin-left: 96px;
+}
+.section-heading{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1F2E35;
+}
+.section-heading>span{
+    color: #EE4248;
+}

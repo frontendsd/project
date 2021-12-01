@@ -13,8 +13,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    background: #F6F6F6;
-    padding-top: 30px;
+    background: #F6F6F6;    
     padding-bottom: 30px;
     margin-bottom: 10px;
     font-family: "Roboto",sans-serif;
@@ -23,6 +22,7 @@ body{
     line-height: 27px;
     color: #30444E;
     background-color: #ffffff;
+
 }
 .container{
     max-width: 1160px;
@@ -33,8 +33,10 @@ body{
     padding-right: 30px;
 }
 .site-header{
-    border-bottom: 1px solid gray;
-    
+    border-bottom: 1px solid gray; 
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    padding: 40px 40px;
+
 }
 
 .site-header-nav{
@@ -133,6 +135,7 @@ body{
     background-color: #EE4248;
     border-radius: 4px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 .section-button:hover{
@@ -145,7 +148,9 @@ body{
 .section-img{
     margin-top: 110px;
 }
-
+.section-two{
+    background-color: #F6F6F6;
+}
 .section-two-heading{
     display: flex;
     margin-top: 165px;
@@ -164,4 +169,102 @@ body{
 }
 .section-heading>span{
     color: #EE4248;
+}
+
+.section-three{
+
+}
+
+.section-three-header{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1F2E35;
+    margin-left: 400px;
+    margin-top: 116px;
+}
+
+.section-three-list{
+    display: flex;
+}
+
+.section-three-item{
+    list-style-type: none;
+}
+
+.section-three-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+    color: #EE4248;
+}
+.section-three-info{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #30444E;
+    margin-top: 15px;
+}
+
+.bottom-button{
+    padding: 8px 16px;
+    width: 119px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.section-four-contact{
+    display: flex;
+}
+.section-address{
+    margin-top: 138px;
+}
+.address-logo:hover{
+    opacity: 0.8;
+}
+.address-logo:active{
+    opacity: 0.6;
+}
+.address-header{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+}
+
+.address-info{
+    width: 300px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 8px;
+}
+
+.section-call{
+    margin-top: 161px;
+    margin-left: 47px;
+}
+
+.contact{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #263238;
+}
+.phone{
+    margin-top: 15px;
+}
+
+.site-footer{
+    background-color: #EE4248;
+    padding: 22px 528px;
+    margin-top: 24px;
+
+}
+
+.footer-info{
+    width: 382px;
+    color: #ffffff;
+    margin-left: 160px;
 }
